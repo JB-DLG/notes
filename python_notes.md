@@ -521,9 +521,8 @@ print(poped_value)  ## this returns the value that was poped
 ## Clear
 basket.clear()
 print(basket)  ## this clears the list of all values
-
-
 ```
+
 
 
 
