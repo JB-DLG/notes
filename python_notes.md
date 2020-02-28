@@ -521,6 +521,49 @@ print(poped_value)  ## this returns the value that was poped
 ## Clear
 basket.clear()
 print(basket)  ## this clears the list of all values
+
+```
+<br>
+## Index
+
+```python 
+print(basket.index((2))  ## returns the index in the list of the value 2
+
+print(basket.index(4,0,3)) ## returns the index of the value 4 but only looks betwen index's 0 - 4 characters
+
+print('d' in basket)  ## searches for the value 'd' in the list basket - this returns either a true or false value
+
+print(basket.count('d'))  ## returns the number of times the value of 'd' is in the list basket
+
+```
+
+## Sorting lists
+
+```python
+basket = [1, 4, 2, 7, 4, 8, 6, 9,]
+basket2 = [1, 4, 2, 7, 4, 8, 6, 9,]
+
+print(basket.index(7))
+
+basket.sort()  ## Sort Modifies the list and sorts it
+
+print(basket.index(7))
+
+print(basket)  ## When we return the list it is still sorted
+
+sorted(basket2) ## sorted creates a new list that is sorted leaving the original list untouched.  
+print(sorted(basket2))  ## We can therefore call this list in a print function to output a sorted list, that is easier to read
+print(basket2)  ## And then when we print the list again it is in its original form
+
+basket3 = basket2.copy()  ## method .copy() creates a new list 
+
+print(basket3)
+
+basket3.reverse()  ##  .reverse() revereses the index order of the list, meaning it is unsored but will be returned in reverse order. 
+print(basket3)
+
+##  If you want a revered ordered list, order it first and then reverse it 
+
 ```
 
 
