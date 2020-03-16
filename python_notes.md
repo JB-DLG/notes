@@ -564,8 +564,26 @@ print(basket3)
 
 ##  If you want a revered ordered list, order it first and then reverse it 
 
+x = list(range(101))
+print(x)
+
+
 ```
 
+
+## Dictionary - Dict
+
+- A data type in python, or a data structure
+- A dictionary is an unordered list of key value pairs
+
+```python 
+
+dictionary = {
+  "a": 1,
+  "b": 2
+}
+
+```
 
 
 
